@@ -8,8 +8,8 @@
   },
   "author": "tzero86",
   "license": "ISC",
-  "dependencies": {
-    "webdriverio": "^4.13.2",
-    "selenium-standalone": "^6.15.2"
+  "devDependencies": {
+    "selenium-standalone": "^6.15.2",
+    "webdriverio": "^4.13.2"
   }
 }
