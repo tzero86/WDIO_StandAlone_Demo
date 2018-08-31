@@ -8,7 +8,7 @@ client
     .setValue('#search-input #search', 'Morphine All Wrong')
     .keys('Enter')
     .pause(3000)
-    .waitForVisible("//div[@id='contents']//ytd-video-renderer[1]//div[1]//div[1]//div[1]//div[1]//h3[1]//a[1]")
-    .click("//div[@id='contents']//ytd-video-renderer[1]//div[1]//div[1]//div[1]//div[1]//h3[1]//a[1]")
+    .waitForVisible('[title="All Wrong - Morphine"]')
+    .click('[title="All Wrong - Morphine"]')
     .pause(90000)
     .end();
